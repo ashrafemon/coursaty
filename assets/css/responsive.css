@@ -1,0 +1,109 @@
+@media (max-width: 991px) {
+  .hero_wrapper .page_menu_course-dropdown {
+    padding-top: 130px !important;
+  }
+  .hero_wrapper .hero_navbar .navbar {
+    flex-direction: column;
+  }
+  .hero_wrapper .hero_navbar .navbar .container {
+    flex-wrap: wrap !important;
+  }
+  .hero_wrapper .hero_navbar .navbar .navbar-brand {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .hero_wrapper .hero_navbar .navbar #hero-menu .navbar-nav {
+    margin: auto;
+  }
+  .hero_wrapper .hero_content-title {
+    font-size: 30px !important;
+  }
+  .hero_wrapper .hero_content-text {
+    font-size: 13px !important;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-toggler {
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+  }
+
+  .hero_wrapper .hero_navbar .navbar .navbar-brand {
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+  }
+  .hero_wrapper .hero_navbar .navbar #hero-menu {
+    background: #ffffff;
+  }
+  .hero_wrapper .hero_content-title {
+    font-size: 22px !important;
+  }
+  .hero_wrapper .hero_content-text {
+    font-size: 12px !important;
+  }
+
+  .courses_wrapper #courseAccordion {
+    overflow-y: auto;
+  }
+}
+@media (max-width: 443px) {
+  .hero_wrapper .hero_content-title {
+    font-size: 16px !important;
+  }
+  .hero_wrapper .hero_content-text {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 331px) {
+  .hero_wrapper .hero_content-title {
+    font-size: 15px !important;
+  }
+  .hero_wrapper .hero_content-text {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .search_wrapper .search_btn {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .online_bachelor_wrapper img.img-half {
+    display: none;
+  }
+
+  .online_master_wrapper img.img-half {
+    display: none;
+  }
+
+  .more_course-item {
+    margin-bottom: 1.5rem;
+  }
+  .more_course-item:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 767px) {
+  .page-navbar .navbar {
+    height: initial !important;
+  }
+  .page-navbar .navbar #page-menu .navbar-nav .nav-item {
+    align-items: flex-start;
+  }
+
+  .desktop_nav {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
